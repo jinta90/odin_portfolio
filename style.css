@@ -1,0 +1,77 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#nav li {
+  float: left;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav li a:hover {
+  background-color: red;
+}
+
+.hero {
+  height: 140px;
+
+  padding: 14px;
+  background-color: plum;
+  border: 5px dotted magenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dog {
+  height: 140px;
+  border: 4px solid #454545;
+}
+.stuff {
+  height: 500px;
+
+  padding: 14px;
+  background-color: aquamarine;
+  border: 5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.koala {
+  height: 200px;
+}
+
+.panda {
+  height: 200px;
+}
+
+.wombat {
+  height: 200px;
+}
+
+.quote {
+  height: 140px;
+  padding: 14px;
+  display: flex;
+  border: 5px solid black;
+  align-items: center;
+  justify-content: center;
+}
+.sign {
+  height: 140px;
+  padding: 14px;
+  display: flex;
+  border: 5px solid black;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border-color: lightblue;
+}
